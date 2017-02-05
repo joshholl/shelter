@@ -1,0 +1,28 @@
+{
+  "name": "shelter",
+  "version": "1.0.0",
+  "description": "Simple sever to host, build, and maintain vagrant images",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshholl/shelter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshholl/shelter/issues"
+  },
+  "homepage": "https://github.com/joshholl/shelter#readme",
+  "devDependencies": {
+    "jshint": "^2.9.4",
+    "sinon": "^1.17.7",
+    "tape": "^4.6.3"
+  },
+  "dependencies": {
+    "express": "^4.14.1",
+    "mongoose": "^4.8.1"
+  }
+}
